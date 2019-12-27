@@ -17,7 +17,7 @@ Because this program uses the "Go Module" feature introduced in Go 1.11, you'll 
 If you have a working Go installation, getting the binary should be as simple as
 
 ```bash
-git clone https://github.com/xperimental/netatmo-exporter
+git clone https://github.com/rolandsusans/netatmo-aircare-prometheus-exporter
 cd netatmo-exporter
 go build .
 ```
