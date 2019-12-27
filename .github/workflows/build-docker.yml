@@ -1,10 +1,16 @@
 name: Build and Publish Docker
-on: [push]
+on:
+  create:
+    tags:
+      - v*
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: jerray/publish-docker-action@master
+      - uses: actions/checkout@master
+      - name: Publish to Registry
+        uses: elgohr/Publish-Docker-Github-Action@master
         with:
+          name: myDocker/repository
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
