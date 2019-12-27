@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/kasko/netatmo-exporter/netatmo"
+	"github.com/rolandsusans/netatmo-aircare-client"
 	"github.com/spf13/pflag"
 )
 

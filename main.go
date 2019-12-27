@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kasko/netatmo-exporter/netatmo"
+	"github.com/rolandsusans/netatmo-aircare-client"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

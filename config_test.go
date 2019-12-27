@@ -2,7 +2,7 @@ package main
 
 import (
 	"reflect"
-	"github.com/kasko/netatmo-exporter/netatmo"
+	"github.com/rolandsusans/netatmo-aircare-client"
 	"testing"
 )
 

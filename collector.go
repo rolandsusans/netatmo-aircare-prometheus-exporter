@@ -4,8 +4,7 @@ import (
 	"log"
 	"time"
 	"github.com/prometheus/client_golang/prometheus"
-
-	"github.com/kasko/netatmo-exporter/netatmo"
+	"github.com/rolandsusans/netatmo-aircare-client"
 )
 
 const (

@@ -53,6 +53,8 @@ github.com/prometheus/procfs v0.0.0-20181005140218-185b4288413d/go.mod h1:c3At6R
 github.com/prometheus/procfs v0.0.2/go.mod h1:TjEm7ze935MbeOT/UhFTIMYKhuLP4wbCsTZCD3I8kEA=
 github.com/prometheus/procfs v0.0.8 h1:+fpWZdT24pJBiqJdAwYBjPSk+5YmQzYNPYzQsdzLkt8=
 github.com/prometheus/procfs v0.0.8/go.mod h1:7Qr8sr6344vo1JqZ6HhLceV9o3AJ1Ff+GxbHq6oeK9A=
+github.com/rolandsusans/netatmo-aircare-client v0.0.0-20191227130307-1323e885eee7 h1:J9WbSjaZw/YFuRtoLCRW9atls0fxp0OGF3ZkbrlNxA8=
+github.com/rolandsusans/netatmo-aircare-client v0.0.0-20191227130307-1323e885eee7/go.mod h1:EmCcHE8OTUynZXnpPQWO++spI1qLL5r5MhqNOCpHbnE=
 github.com/rolandsusans/netatmo-aircare-exporter v0.0.0-20191227095145-f5d726384688 h1:ogT15u2N8dnuU2tTMROMGFJOlVQ09qEISkSrIzTVANU=
 github.com/rolandsusans/netatmo-aircare-exporter v0.0.0-20191227095145-f5d726384688/go.mod h1:8T+4eIadMjuvhiNlm6/MzOnhALdZPfSLfEgJikILWNQ=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
