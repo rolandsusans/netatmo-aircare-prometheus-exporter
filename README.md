@@ -40,6 +40,10 @@ Usage of netatmo-exporter:
   -u, --username string        Username of NetAtmo account.
 ```
 
+```bash
+docker run -p <LOCAL_PORT>:9210 -e NETATMO_CLIENT_ID=<NETATMO_CLIENT_ID> -e NETATMO_CLIENT_SECRET=<NETATMO_CLIENT_SECRET> -e NETATMO_CLIENT_USERNAME=<NETATMO_CLIENT_USERNAME> -e NETATMO_CLIENT_PASSWORD=<NETATMO_CLIENT_PASSWORD> rolandsusans/netatmo-aircare-prometheus-exporter
+```
+
 After starting the server will offer the metrics on the `/metrics` endpoint, which can be used as a target for prometheus.
 
 ### Passing secrets
