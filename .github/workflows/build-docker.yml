@@ -14,3 +14,4 @@ jobs:
           name: rolandsusans/netatmo-aircare-prometheus-exporter
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          tag_names: true
